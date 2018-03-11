@@ -1,0 +1,8 @@
+/* General Setting */
+.container_fluid {
+  width: 100%;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
