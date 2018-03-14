@@ -5,6 +5,7 @@ font-family: 'Montserrat', sans-serif; */
 /* General Setting */
 html, body {
   height: 100%;
+  background: #ffffff;
 }
 
 .container_fluid {
@@ -95,4 +96,26 @@ header ul li a:active {
   color: #fff;
   padding: 20px 40px;
   background: #10c9c3;
+}
+
+/* About Page */
+#about-page {
+  text-align: center;
+  height: 420px;
+}
+
+#about-page .container {
+  padding-top: 6%;
+}
+
+#about-page .container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+#about-page .container p {
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 24px;
+  margin-bottom: 40px;
 }
