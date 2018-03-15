@@ -119,3 +119,71 @@ header ul li a:active {
   line-height: 24px;
   margin-bottom: 40px;
 }
+
+/* Professionals Skills */
+#professionals-skills {
+  background: #f8f9f9;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 570px;
+}
+
+#professionals-skills .block:first-of-type {
+  background: #f8f9f9;
+  padding: 20% 10% 20% 15%;
+}
+
+#professionals-skills .block:last-of-type {
+  background: #e9e9e9;
+}
+
+#professionals-skills .block h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+#professionals-skills .block h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #d8d8d8;
+  position: relative;
+}
+
+#professionals-skills .block h4:first-of-type::after {
+  content: "";
+  height: 3px;
+  width: 75%;
+  background: #10c9c3;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+
+#professionals-skills .block h4:nth-of-type(2)::after {
+  content: "";
+  height: 3px;
+  width: 90%;
+  background: #10c9c3;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+
+#professionals-skills .block h4:last-of-type::after {
+  content: "";
+  height: 3px;
+  width: 65%;
+  background: #10c9c3;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+
+#professionals-skills .block:last-of-type {
+  background: url("../img/professional-skills.jpg")no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
