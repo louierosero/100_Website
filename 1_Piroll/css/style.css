@@ -130,7 +130,7 @@ header ul li a:active {
 
 #professionals-skills .block:first-of-type {
   background: #f8f9f9;
-  padding: 20% 10% 20% 15%;
+  padding: 15% 10% 10% 15%;
 }
 
 #professionals-skills .block:last-of-type {
@@ -186,4 +186,38 @@ header ul li a:active {
   background: url("../img/professional-skills.jpg")no-repeat center center;
   -webkit-background-size: cover;
   background-size: cover;
+}
+
+/* Achievement */
+#achievement {
+  background: #10c9c3;
+}
+
+#achievement .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 240px;
+}
+
+#achievement .container .block {
+  position: relative;
+}
+
+#achievement .container .block img {
+  position: absolute;
+  top: 41%;
+}
+
+#achievement .container .block p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+#achievement .container .block p span.numbers {
+  margin-bottom: 15px;
+  display: inline-block;
 }
