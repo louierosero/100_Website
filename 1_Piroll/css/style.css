@@ -278,3 +278,43 @@ header ul li a:active {
   text-decoration: none;
   padding: 42px;
 }
+
+/* Word Process */
+#work-process {
+  text-align: center;
+}
+
+#work-process .container {
+  margin-top: 80px;
+}
+
+#work-process .container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+#work-process .container p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+#work-process .container .block {
+  height: 570px;
+  background: #e9e9e9;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+#work-process .container .block::after {
+  content: "";
+  background: url("../img/play-icon.png")no-repeat center center;
+  height: 119px;
+  width: 119px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
