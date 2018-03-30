@@ -383,3 +383,22 @@ header ul li a:active {
   font-size: 12px;
   margin-bottom: 80px;
 }
+
+/* Clients */
+#clients {
+  height: 200px;
+}
+
+#clients .container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding-top: 60px;
+}
+
+#clients .container .block {
+  text-align: center;
+}
+
+#clients .container .block img {
+  display: inline-block;
+}
