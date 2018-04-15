@@ -476,3 +476,47 @@ header ul li a:active {
   font-size: 12px;
   cursor: pointer;
 }
+
+/* Footer: Company and Copyright, Contact Info, Website Link, Social Media */
+footer {
+  height: 284px;
+  background: #141414;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 100px 0 0;
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: 40% 25% 25% 10%;
+}
+
+footer .container .block h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin-bottom: 26px;
+}
+
+footer .container .block p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #bcbcbc;
+}
+
+footer .container .block ul {
+  list-style: none;
+}
+
+footer .container .block ul li a {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #bcbcbc;
+  line-height: 1.5;
+}
+
+footer .container .block.sitemap {
+  display: grid;
+  grid-template-columns: auto auto;
+}
