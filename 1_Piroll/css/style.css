@@ -402,3 +402,77 @@ header ul li a:active {
 #clients .container .block img {
   display: inline-block;
 }
+
+/* Contact Us Page */
+#contactus {
+  height: 750px;
+  background: #f5f5f5;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 102px 0 0;
+}
+
+#contactus .container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-bottom: 36px;
+}
+
+#contactus .container p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 36px;
+}
+
+#contactus .container .input-field {
+  width: 670px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#contactus .container .input-field .block:first-of-type {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 30px;
+}
+
+#contactus .container .input-field .block:first-of-type input[type=text] {
+  padding: 10px;
+  font-size: 12px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#contactus .container .input-field .block:first-of-type input[type=text]#name {
+  margin-right: 30px;
+}
+
+#contactus .container .input-field .block:last-of-type {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 30px 0;
+}
+
+#contactus .container .input-field .block:last-of-type input[type=text],
+#contactus .container .input-field .block:last-of-type textarea {
+  padding: 10px;
+  font-size: 12px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#contactus .container .input-field .block:last-of-type textarea {
+  height: 170px;
+  resize: none;
+}
+
+#contactus .container input[type=button] {
+  outline: none;
+  border: none;
+  background: #10c9c3;
+  padding: 15px 30px;
+  color: #Fff;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
